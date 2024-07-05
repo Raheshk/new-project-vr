@@ -1,0 +1,116 @@
+/* Resetting default styles   */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f6e2f0;
+    line-height: 1.6;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    height: 20rem;
+  }
+  .head-text {
+    color: #e99aff;
+    font-family: cursive;
+    font-size: 70px;
+    color: #fff;
+    text-align: center;
+    height: 10rem;
+    animation: glow 1s ease-in-out infinite alternate;
+  }
+  .d-flex {
+    background-color: #333;
+    font-family: cursive;
+  }
+  @-webkit-keyframes glow {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073,
+        0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+    }
+  
+    to {
+      text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6,
+        0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+    }
+  }
+  
+  .image1 {
+    height: 6rem;
+    border-radius: 10rem;
+  }
+  .mt-5 {
+    margin-right: 70rem;
+  }
+  
+  .text-primary{
+      text-align: center;
+      background-color: #333;
+      color: #f8c4f0;
+  }
+  .button {
+    color: rgb(43, 43, 44);
+    background-color: #f0d3f8;
+    width: 4rem;
+    height: 2rem;
+    border-radius: 9rem;
+    border: 0;
+    font-family: cursive;
+  }
+  
+  .button:hover {
+    color: rgb(248, 211, 236);
+    background-color: rgb(255, 0, 221);
+    width: 5rem;
+    animation-duration: 90s, 4s;
+  }
+  
+  header h1 {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .main {
+    padding: 2rem;
+  }
+  
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 10px;
+  }
+  
+  .item {
+    position: relative;
+    overflow: hidden;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 5px;
+  }
+  
+  .item img {
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: transform 0.5s ease;
+  }
+  
+  .item:hover img {
+    transform: scale(1.1);
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+  }
+  
